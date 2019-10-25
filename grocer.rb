@@ -15,7 +15,6 @@ def consolidate_cart(cart)
 end
 
 
-def apply_coupons(cart, coupons)
   def apply_coupons(cart, coupons)
   coupons.each do |coupon|
     if cart.keys.include? coupon[:item]
